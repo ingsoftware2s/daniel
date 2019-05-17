@@ -1,0 +1,116 @@
+//menu
+*{
+	padding:0;
+	margin:0;
+}
+header{
+	width:100%;
+	background:#000103;
+	box-shadow:2px 2px 2px #E9FFFA;
+	height:45px;
+}
+#menu{
+	width:1000px;
+	padding-top:0;
+	margin:auto;
+}
+#menu ul a{
+	font-size:15px;
+	color:#D5FFF5;
+	text-decoration:none;
+	padding:10px 20px; /*distancias de las palabras y animacion*/
+
+	}
+#menu ul a:hover{
+	border-bottom:4px solid #E4FFF1; /* tamaño de la animacion*/
+}
+
+
+/*formato*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bree Serif', serif;
+  text-align:center;
+  background:#000000;
+  background-image:url(imagenes/a14.jpg);
+  background-repeat: no-repeat; 
+}
+
+
+/*contenedor de textos*/
+#contenedor {
+width: 1020px;
+margin: 50px auto;
+border: solid 1px #8F9794;
+background:#000103;
+}
+#contenedor h3{
+	font-family: "Times New Roman", Times, serif;
+	color:#BBBBBB;
+	font-size:20px;
+	text-decoration:none;
+}
+#contenedor h5{
+	font-family: "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	font-size:35px;
+	text-decoration:none;
+}
+#contenedor label{
+color:#ADADAD;
+font-size:15px;
+margin-right:10px;	
+}
+#contenedor input[type="text"], input[type="password"], input[type="email"], [type="submit"]{
+  color:#EBFEFF;
+  background:#000103;
+  font-size:17px;
+  outline: none;
+  padding:12px;
+  display: block;
+  width: 15%;
+  border-radius:7px;
+  border: 2px solid #495164;
+  margin:3px;
+  padding-bottom:12px;
+  border-bottom-color:#D3FFEC;
+  margin-left:450px;
+}
+#contenedor input[type="submit"]:hover {
+  background-color: #000621;
+}
+#contenedor input[type="checkbox"],input[type="radio"] {
+	border: 2px solid #FC0404;
+	background: transparent;
+	border-radius:2px;
+	display: inline-block;
+	height:20px;
+	margin-right:10px;
+	text-align: center;
+	width: 20px;
+	vertical-align:middle;
+
+}
+#contenedor select{
+  color:#ADADAD;
+  background:#000103;
+  font-size:15px;
+  outline: none;
+  padding:8px;
+  display: block;
+  width: 20%;
+  border-radius:5px;
+  border: 2px solid #8F9794;
+  margin-left:400px;
+}
+#contenedor textarea{
+  color:#ADADAD;
+  background:#000103;
+  font-size:15px;
+  outline: none;
+  display: block;
+  border-radius:5px;
+  border: 2px solid #8F9794;
+  margin-left:300px;
+}
